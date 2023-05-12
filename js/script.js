@@ -2,16 +2,25 @@
 //
 // Created by: Janet Do
 // Created on: Sep 2020
-// This file generates the area of a triangle
+  // This function multiplies two numbers
 "use strict"
+
 function calculate() {
+
+
   // input
-  const base = parseInt(document.getElementById("base").value)
-  const height = parseInt(document.getElementById("height").value)
+  const number1 = parseInt(document.getElementById("number1").value)
+  const number2 = parseInt(document.getElementById("number2").value)
 
   // process
-  const area = base * height / 2
+  let counter = 0
+  let answer = 0
+  while (counter < number2) {
+    answer = answer + number1
+    counter = counter + 1
+  }
 
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById("numberEntered").innerHTML =
+    number1 + " x " + number2 + " = " + answer
 }
