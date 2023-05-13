@@ -3,6 +3,7 @@
 // Created by: Janet Do
 // Created on: Sep 2020
   // This function multiplies two numbers
+  
 "use strict"
 
 function calculate() {
